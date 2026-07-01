@@ -1,0 +1,13 @@
+# Виртуальное окружение
+venv/
+.env
+
+# Сгенерированные презентации (кроме примеров)
+output/*.pptx
+!output/presentation_RZD.pptx
+!output/presentation_Aeroflot.pptx
+
+# Кэш
+__pycache__/
+*.pyc
+.DS_Store
